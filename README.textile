@@ -1,0 +1,26 @@
+h1. Plugin CakeMongoSession
+
+h2. Descrição
+
+Plugin que visa oferecer uma forma distribuída de armazenamento de sessões dos
+usuários, unindo a perfomance e escalabilidade do bando de dados não-relacional MongoDB
+com as facilidades do framework CakePHP.
+
+h2. ATENÇÃO
+
+O código não encontra-se funcional.
+
+Da forma como está ele entra em conflito com os componentes internos do CakePHP como o 
+AuthComponent.
+
+h2. Copyright
+
+Projeto baseado no "Mongo Session":www.jqueryin.com/projects/mongo-session de Corey Ballou, uma
+PHP classe para manipulação e persistência de Sessões com o MongoDB.
+
+O projeto também toma como base vários trechos de código do CakePHP, replicando em alguns lugares
+códigos do Component Session e lib CakeSession.
+
+Em ambos os casos, o Copyright pertence a seus devidos autores (Corey Ballou e CakePHP Foundation),
+o código restante tem os direitos reservados a "Radig Soluções em TI":http://radig.com.br e está
+licensiado sob os termos da licensa MIT:http://www.opensource.org/licenses/mit-license.php  
